@@ -1,0 +1,55 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-hold {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  z-index: 4;
+  background-color: red;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: grab;
+}
+
+.slider {
+  border: 2px dotted black;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+.top-image {
+  z-index: 2;
+  position: absolute;
+  background-color: aliceblue;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-image {
+  z-index: 1;
+  position: absolute;
+  background-color: aliceblue;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 400px;
+}
