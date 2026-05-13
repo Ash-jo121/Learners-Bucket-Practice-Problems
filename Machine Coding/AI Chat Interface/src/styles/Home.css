@@ -1,0 +1,17 @@
+.home {
+  margin-top: auto;
+}
+
+input {
+  width: 500px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  width: 100%;
+  align-items: center;
+}
