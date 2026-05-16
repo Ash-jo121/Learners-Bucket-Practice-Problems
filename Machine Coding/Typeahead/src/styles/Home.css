@@ -1,0 +1,14 @@
+.result {
+  border: 1px solid;
+  width: 200px;
+  cursor: pointer;
+  height: 25px;
+}
+
+.active {
+  background-color: blanchedalmond;
+}
+
+.result:hover {
+  background-color: blanchedalmond;
+}

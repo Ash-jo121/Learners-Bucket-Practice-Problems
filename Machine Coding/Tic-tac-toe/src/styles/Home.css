@@ -1,0 +1,7 @@
+.grid {
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+}
