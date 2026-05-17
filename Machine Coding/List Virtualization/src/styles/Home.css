@@ -1,0 +1,12 @@
+.home {
+  height: 100vh; /* ← fixed container height, not 400000px */
+  overflow-y: scroll;
+  position: relative;
+  width: 100%;
+}
+
+:root {
+  height: 100%;
+  overflow: hidden; /* ← prevent page scroll */
+  margin: 0;
+}
